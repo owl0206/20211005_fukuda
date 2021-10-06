@@ -62,8 +62,9 @@ h2 {
   color: #ab0f50;
 }
 .news-table {
-  position: absolute;
-  left: 240px;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
 }
 .news-table ul {
   list-style: none;
@@ -98,9 +99,9 @@ hr {
   background-color: #dddddd;
   padding: 60px 0;
   margin-top: 500px;
-  margin-left: 0;
   width: 100vw;
-  height: 300px;
+  height: 350px;
+  position: relative;
 }
 .about-img img {
   width: 100%;
@@ -108,14 +109,19 @@ hr {
 .about-img {
   width: 30%;
   float: right;
-  margin: 60px 180px;
+  padding: 60px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 .about-text {
   text-align: left;
-  margin-left: 70px;
   margin-top: 60px;
   color: #404448;
   line-height: 30px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #about {
   position: absolute;
@@ -124,13 +130,13 @@ hr {
 }
 .about-ttl {
   position: absolute;
-  padding-left: 40%;
   margin-top: -50px;
+  margin-left: 40%;
   font-size: 22px;
   color: #404448;
 }
 .service {
-  margin: 100px 160px;
+  margin: 100px 140px;
 }
 .service-ttl {
   font-size: 20px;
@@ -160,10 +166,13 @@ hr {
 .service-contents {
   font-weight: bold;
   font-size: 16px;
+  padding-bottom: 10px;
 }
-.service-contents:first-child {
-  display: block;
-  margin: 0px 120px;
+.service-contents1 {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 .service-img1 {
   display: block;
@@ -180,19 +189,19 @@ hr {
 .service-text {
   font-size: 13px;
   line-height: 24px;
-  margin: 40px 20px;
+  margin: 10% 10%;
 }
 .service-text1 {
   font-size: 13px;
   line-height: 24px;
-  margin: 40px 40px;
+  margin: 10% 10%;
 }
 .blog {
   background-color: #dddddd;
   padding: 60px 50px;
   margin-top: 300px;
-  width: 90vw;
-  height: 500px;
+  width: 100vw;
+  height: 600px;
 }
 .blog-item {
   display: flex;
@@ -241,7 +250,8 @@ hr {
   display: block;
   width: 100px;
   margin-top: 30px;
-  margin-left: 430px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .blog-text {
