@@ -198,17 +198,18 @@ hr {
 }
 .blog {
   background-color: #dddddd;
-  padding: 60px 50px;
+  padding: 60px 0px;
   margin-top: 300px;
   width: 100vw;
-  height: 600px;
+  height: 650px;
 }
 .blog-item {
   display: flex;
   justify-content: space-around;
+  padding: 10px;
 }
 .blog-item-content {
-  width: 30%;
+  width: 25%;
   border-radius: 20px;
   background: #ffffff;
 }
@@ -237,7 +238,10 @@ hr {
 .blog-ttl {
   font-size: 30px;
   color: #5b5c76;
-  margin: 20px 0;
+  margin: 20px 70px;
+}
+#blog {
+  margin: 0 70px;
 }
 .blog-page {
   text-decoration: none;
